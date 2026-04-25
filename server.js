@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const MODEL = "google/gemini-2.0-flash-lite-001"; // free model
+const MODEL = "google/gemini-2.0-flash-001"; // free model
 
 let totalCarbonSaved = 0;
 let totalOptimizations = 0;
